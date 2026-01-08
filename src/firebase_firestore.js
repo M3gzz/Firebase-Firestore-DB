@@ -3,14 +3,13 @@ import { getFirestore, doc, collection, setDoc, getDoc, updateDoc  } from "fireb
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDDDNdyhAZT0tful4c4eQ2pVOS6DvbAAw4",
-    authDomain: "reactfrontenddeleteme-1c564.firebaseapp.com",
-    projectId: "reactfrontenddeleteme-1c564",
-    storageBucket: "reactfrontenddeleteme-1c564.firebasestorage.app",
-    messagingSenderId: "168292826954",
-    appId: "1:168292826954:web:83004b561e60acd8f0cbb3"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID
   };
-
   const app = initializeApp(firebaseConfig);
 
   const db = getFirestore(app);
