@@ -1,4 +1,4 @@
-# Firebase Firestore Practice
+# 🔥 Firebase Firestore Practice
 
 This is a simple **React app** created as personal practice to learn how to integrate **Firebase Firestore** for storing and retrieving data in real-time.
 
@@ -6,20 +6,20 @@ The app features a basic global highscore system: It reads the current highscore
 
 Through building this, I learned a lot about Firebase configuration, async data fetching in React and writing ssecure Firestore rules.
 
-## Technologies
+## 💻 Technologies
 
 - React
 - javaScript
 - Firebase (Firestore)
 
-## Features
+## ☺︎ Features
 
 - Connects to Firebase Firestore
 - Fetches and displays a highschore value from a document (`Highscore/Current`)
 - Safe error handling for missing documents
 - Basic security rules to allow reads and validates writes
 
-## Running the project
+## 📌 Running the project
 1. Clone the repository
 
 `git clone https://github.com/M3gzz/Firebase-Firestore-DB.git`
@@ -40,7 +40,7 @@ Through building this, I learned a lot about Firebase configuration, async data 
 Note: You'll need your own Firebase project with Firestore enabled and the document `Highschore/Current` created ( with a `score` field) for it to work fully.
 
 
-## Live Demo
+##  ⭐️  Live Demo
 
 
 https://reactfrontenddeleteme-1c564.web.app/
